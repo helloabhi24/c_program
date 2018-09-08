@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<string.h>
+void main(){
+    int co=0;
+    char a[10],b[10],o;
+    gets(a);
+    printf("Enter a char");
+    scanf("%c",&o);
+    for(int i=0;a[i]!='\0';i++){
+        if(a[i]==o)
+        {
+            co++;
+        }
+    }
+    printf("%d",co);
+}
