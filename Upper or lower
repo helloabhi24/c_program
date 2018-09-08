@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<string.h>
+void main(){
+    char a[20],b[20],i,j;
+    printf("Enter l or u");
+    scanf("%c",&i);
+    if(i=='l'){
+        for(j='a';j<='z';j++)
+        {
+            printf("%c ",j);
+        }
+    }
+    else{if(i=='u'){
+        for(j='A';j<='Z';j++)
+        {
+            printf("%c ",j);
+        }
+    }}
+}
