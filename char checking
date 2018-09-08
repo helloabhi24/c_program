@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<string.h>
+void main(){
+    int co=0;
+    char a[10],b[10],o;
+    scanf("%c",&o);
+    if(o>='a'&&o<='z'){
+        printf("%c is a char",o);
+    }
+    else
+    printf("It is not char");
+}
