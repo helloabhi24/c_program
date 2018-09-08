@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<string.h>
+void main(){
+    char i;
+    char a[20],b[20];
+    for(i='!';i<='+';i++){
+        printf("%c",i);
+    }
+}
