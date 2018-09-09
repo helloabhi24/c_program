@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<string.h>
+void main(){
+   int i,co=1;
+   char a[20],b[20],c;
+   gets(a);
+   for(i=0;a[i]!='\0';i++)
+   {
+       if(a[i]==' ')
+       co++;
+   }
+   printf("%d",co);
+}
