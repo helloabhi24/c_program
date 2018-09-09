@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<string.h>
+void main(){
+    int i,j;
+  char a[20],b[20];
+  gets(a),gets(b);
+  for( i=0;a[i]!='\0';i++);
+  
+  for( j=0;b[j]!='\0';j++)
+{
+    
+    a[i]=b[j];
+    i++;
+}
+    printf("%s",a);
+}
