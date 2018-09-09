@@ -14,3 +14,27 @@ for(j=0;b[j]!='\0';++j,++i){
 puts(a);
     
 }
+
+
+
+Second method 
+
+
+#include<stdio.h>
+#include<string.h>
+void main(){
+    int i,j,c,d;
+  char a[20],b[20];
+  gets(a),gets(b);
+  c=strlen(a);
+  d=strlen(b);
+  
+  
+  for( j=0;j<=d;j++)
+{
+    
+    a[c]=b[j];
+    c++;
+}
+    printf("%s",a);
+}
