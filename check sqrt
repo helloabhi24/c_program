@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<coino.h>
+#include<math.h>
+void main(){
+int a,b;
+scanf("%d",&a);
+b=sqrt(a);
+if(a-(b*b)==0){printf("%d is sqrt",a)}
+}
