@@ -14,3 +14,30 @@ int main()
     }
     
 }
+
+
+
+
+
+
+
+
+
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    int sum=0,n,i,a;
+    printf("ENter a no.");
+    scanf("%d",&a);
+    i=a;
+    while(i>0)
+    {
+        n=i%10;
+        sum=sum+n;
+        i=i/10;
+        
+    }
+    printf(" %d is sum of %d\n",sum,a);
+    
+}
