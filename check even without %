@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{ 
+    int c;
+    for(int a=0;a<10;a++)
+   { 
+       c=(a-2*(a/2));
+       if(c==0)
+       printf("hello %d is even\n",a);
+   }
+     return 0;
+}
